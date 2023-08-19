@@ -14,7 +14,7 @@ environment{
             }
         }
 
-        stage('SonarQube Analysis'){
+       /* stage('SonarQube Analysis'){
             environment {
                 scannerHome = tool 'valaxy-sonar-scanner'
             }
@@ -23,6 +23,6 @@ environment{
                     sh "${scannerHome}/bin/sonar-scanner"
                 }
             }
-        }    
+        } */   
     }
 }
